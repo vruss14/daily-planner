@@ -12,11 +12,11 @@ Regarding coding the JavaScript for the application, one issue I ran into was to
 
 This was a fun and useful project to create, and I learned even more about for loops and local storage in the process. I also learned more about setting a new class attribute conditionally, which is a great technique to keep in mind.
 
-Please find the deployed application here: 
+Please find the deployed application here: https://vruss14.github.io/daily-planner/
 
 ## Installation
 
-No installation steps are required to view this project. To view the front-end application, visit the URL above. The application's source code can be found on GitHub here:
+No installation steps are required to view this project. To view the front-end application, visit the URL above. The application's source code can be found on GitHub here: https://github.com/vruss14/daily-planner
 
 ## Usage
 
@@ -24,7 +24,7 @@ This web application is designed for all applications.
 
 Below is a screenshot of the desktop version of the deployed application:
 
-![screenshot of planner webpage for desktop](#)
+![screenshot of planner webpage for desktop](planner-screenshot.png)
 
 ## Credits
 
