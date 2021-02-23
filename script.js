@@ -16,7 +16,8 @@ let endWorkDay = document.getElementById("17");
 
 let rowArray = [beginWorkDay, tenMorning, eleven, noon, oneAfternoon, twoAfternoon, threeAfternoon, fourAfternoon, endWorkDay];
 
-currentTime = 16;
+
+// Conditional logic for the background color of each time block depending on time of day
 
 if (currentTime < 9) {
     for (let i = 0; i < rowArray.length; i++) {
@@ -97,9 +98,56 @@ if (currentTime < 9) {
         rowArray[i].setAttribute("class", "row future");
     }
     console.log("4 to 5 block");
-} else if (currentTime >= 17) {
+} else if (currentTime >= 17 && currentTime < 18) {
+    for (let i = 0; i < rowArray.length; i++) {
+        rowArray[0].setAttribute("class", "row past");
+        rowArray[1].setAttribute("class", "row past");
+        rowArray[2].setAttribute("class", "row past");
+        rowArray[3].setAttribute("class", "row past");
+        rowArray[4].setAttribute("class", "row past");
+        rowArray[5].setAttribute("class", "row past");
+        rowArray[6].setAttribute("class", "row past");
+        rowArray[7].setAttribute("class", "row past");
+        rowArray[8].setAttribute("class", "row present");
+    }
+} else {
     for (let i = 0; i < rowArray.length; i++) {
         rowArray[i].setAttribute("class", "row past");
     }
     console.log("After work day :)")
+
+}
+
+// Local storage
+
+let saveNine = document.getElementById("btn-9");
+saveNine.addEventListener("click", storeResponse);
+
+let saveTen = document.getElementById("btn-10");
+saveTen.addEventListener("click", storeResponse);
+
+let saveEleven = document.getElementById("btn-11");
+saveEleven.addEventListener("click", storeResponse);
+
+let saveNoon = document.getElementById("btn-12");
+saveNoon.addEventListener("click", storeResponse);
+
+let saveOne = document.getElementById("btn-13");
+saveOne.addEventListener("click", storeResponse);
+
+let saveTwo = document.getElementById("btn-14");
+saveTwo.addEventListener("click", storeResponse);
+
+let saveThree = document.getElementById("btn-15");
+saveThree.addEventListener("click", storeResponse);
+
+let saveFour = document.getElementById("btn-16");
+saveFour.addEventListener("click", storeResponse);
+
+let saveFive = document.getElementById("btn-17");
+saveFive.addEventListener("click", storeResponse);
+
+
+function storeResponse () {
+    console.log("It works!");
 }
