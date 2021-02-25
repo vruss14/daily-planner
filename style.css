@@ -70,7 +70,7 @@ body {
     color: white;
   }
   
-  /* Styling for each save button on the right, as well as the picture */
+  /* Styling for each save button on the right */
   .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;

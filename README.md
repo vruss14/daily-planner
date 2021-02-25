@@ -8,7 +8,7 @@ Because I began with a lot of HTML and CSS starter code, one of the challenges e
 
 I added an SVG for a save icon, and discovered that I could modify the color of the SVG during the hover state through a CSS filter rather than swapping out the image for a different one in JavaScript. I thought this was a wonderful and lightweight solution to meet the client's preferences.
 
-Regarding coding the JavaScript for the application, one issue I ran into was to make sure the computer could accurately differentiate between times such as 9 AM and 9 PM. I resolved this issue by choosing to use 24-hour time. Doing so made it much simpler to write conditional logic based on the current time so that each time block could be coded with the right background color. Finding a solution to store user inputs locally was fairly straightforward, and I also came up with a solution to clear local storage each day so that the planner will start out blank again once a new work day begins.
+Regarding coding the JavaScript for the application, one issue I ran into was to make sure the computer could accurately differentiate between times such as 9 AM and 9 PM. I resolved this issue by choosing to use 24-hour time. Doing so made it much simpler to write conditional logic based on the current time so that each time block could be coded with the right background color. Finding a solution to store user inputs locally was fairly straightforward.
 
 This was a fun and useful project to create, and I learned even more about for loops and local storage in the process. I also learned more about setting a new class attribute conditionally, which is a great technique to keep in mind.
 
