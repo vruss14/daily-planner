@@ -100,3 +100,19 @@ body {
     filter: invert(100%) hue-rotate(180deg); 
   }
   
+  /* Responsive design */
+
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 100%;
+    }
+
+    .row {
+      width: 70%;
+    }
+
+    #save-icon {
+      height: 15px;
+      width: 15px;
+    }
+}

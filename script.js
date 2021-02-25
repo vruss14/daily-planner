@@ -262,9 +262,3 @@ function retrieveEventSeventeen () {
 }
 
 retrieveEventSeventeen();
-
-// Clear local storage at the end of each day
-
-if (currentTime == 24) {
-    window.localStorage.clear();
-}
