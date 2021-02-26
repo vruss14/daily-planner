@@ -12,6 +12,8 @@ Regarding coding the JavaScript for the application, one issue I ran into was to
 
 This was a fun and useful project to create, and I learned even more about for loops and local storage in the process. I also learned more about setting a new class attribute conditionally, which is a great technique to keep in mind.
 
+Because I noticed that my JavaScript code is repetitious, I worked with my tutor to better understand ways to simplify and condense my code. Together, we created a second JavaScript file where I learned about the forEach method, the parseInt method, template literals, and the difference between let and const. I am excited to use what I've learned from my tutor in future assignments. I added this file to the repo for reference, but it is commented out.
+
 Please find the deployed application here: https://vruss14.github.io/daily-planner/
 
 ## Installation

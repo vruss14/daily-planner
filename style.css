@@ -83,14 +83,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  
   }
 
   /* SVG provided by svgrepo.com */
 
-  #save-icon {
-    padding: 4%;
-    
+  .save-icon {
+    padding: 4%; 
   }
   
   /* Styling for when the user hovers over the save button */
