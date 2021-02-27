@@ -80,15 +80,12 @@ body {
     height: 80px;
     color: white;
     float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
   }
 
   /* SVG provided by svgrepo.com */
 
   .save-icon {
-    padding: 4%; 
     background-image:url("save-icon-svgrepo-com.svg");
     background-repeat: no-repeat;
     background-position: center;
