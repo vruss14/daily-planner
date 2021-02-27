@@ -89,6 +89,9 @@ body {
 
   .save-icon {
     padding: 4%; 
+    background-image:url("save-icon-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   /* Styling for when the user hovers over the save button */
@@ -106,11 +109,11 @@ body {
     }
 
     .row {
-      width: 70%;
+      width: 60%;
     }
 
-    #save-icon {
-      height: 15px;
-      width: 15px;
+    .save-icon {
+      padding-left: 6%;
+      padding-right: 6%;
     }
 }
